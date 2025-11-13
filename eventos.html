@@ -1,43 +1,161 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FUTBOL PARA TODOS</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos - Fútbol para Todos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="eventos.css">
 </head>
-
 <body>
 
-<header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <img class="navbar-brand" src="assets\LOGO_FPT.png" alt="Logo de Futbol para todos" width="40" height="36"></img>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav justify-content-center w-100"> <!-- para centrar los cosos del navbar-->
-        <li class="nav-item mx-5">
-          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-        </li>
-        <li class="nav-item mx-5"> <!-- mx-5 lo uso para el espaciado entre titulos-->
-          <a class="nav-link" href="reservas.html">Reservas</a>
-        </li>
-        <li class="nav-item mx-5">
-          <a class="nav-link" href="asociarme.html">Asociarse</a>
-        </li>
-        <li class="nav-item mx-5">
-          <a class="nav-link" href="eventos.html">Eventos</a>
-        </li>
-        <li class="nav-item mx-5">
-          <a class="nav-link" href="contacto.html">Contacto</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-</header>
+  <!-- HEADER -->
+ <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+      <div class="container-fluid">
+        <img class="navbar-brand" src="assets\algo.jpeg" alt="Logo de Futbol para todos" width="40" height="36">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav justify-content-center w-100">
+            <li class="nav-item mx-5">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item mx-5">
+              <a class="nav-link" href="reservas.html">Reservas</a>
+            </li>
+            <li class="nav-item mx-5">
+              <a class="nav-link active fw-bold text-success" aria-current="page" href="asociarme.html">Asociarse</a>
+            </li>
+            <li class="nav-item mx-5">
+              <a class="nav-link" href="eventos.html">Eventos</a>
+            </li>
+            <li class="nav-item mx-5">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
+  <!-- MAIN -->
+  <main>
+    <!-- Presentación -->
+    <section class="hero container text-center py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <h1 class="fw-bold">Eventos Especiales</h1>
+          <p class="lead">Enterate de todos los torneos, partidos amistosos y actividades especiales que organizamos semana a semana.</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="assets\algo.jpeg" alt="Evento principal" class="img-fluid rounded shadow">
+        </div>
+      </div>
+      <h2 class="mt-5">Próximos eventos</h2>
+      <div class="d-flex flex-wrap justify-content-center gap-3 mt-3">
+        <button class="btn btn-primary">Ver todos</button>
+        <button class="btn btn-outline-primary">Este mes</button>
+        <button class="btn btn-outline-primary">Mis eventos</button>
+      </div>
+    </section>
+
+    <!-- Eventos Destacados -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h1 class="text-center mb-4">Eventos Destacados</h1>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <article class="card h-100 shadow-sm">
+              
+              <img src="assets\algo.jpeg" class="card-img-top" alt="Evento 1">
+              <div class="card-body">
+                <h2 class="h5">Torneo Relámpago</h2>
+                <h3 class="h6 text-muted">Domingo 15/11</h3>
+                <p>8 equipos - Premio $50.000</p>
+                <button class="btn btn-outline-primary w-100">Más info</button>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="card h-100 shadow-sm">
+              <img src="assets\algo.jpeg" class="card-img-top" alt="Evento 2">
+              <div class="card-body">
+                <h2 class="h5">Partido Amistoso</h2>
+                <h3 class="h6 text-muted">Sábado 21/11</h3>
+                <p>Inscripción gratuita</p>
+                <button class="btn btn-outline-primary w-100">Más info</button>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="card h-100 shadow-sm">
+              <img src="assets\algo.jpeg" class="card-img-top" alt="Evento 3">
+              <div class="card-body">
+                <h2 class="h5">Copa Verano</h2>
+                <h3 class="h6 text-muted">Inicio 10/12</h3>
+                <p>Duración 3 semanas</p>
+                <button class="btn btn-outline-primary w-100">Más info</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eventos Próximos -->
+    <section class="py-5">
+      <div class="container">
+        <h1 class="text-center mb-4">Eventos Próximos</h1>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <article class="card h-100 shadow-sm">
+              <img src="assets\algo.jpeg" class="card-img-top" alt="Evento 4">
+              <div class="card-body">
+                <h2 class="h5">Noche de Penales</h2>
+                <h3 class="h6 text-muted">Viernes 27/11</h3>
+                <p>Competencia individual</p>
+                <button class="btn btn-outline-primary w-100">Inscribirme</button>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="card h-100 shadow-sm">
+              <img src="assets\algo.jpeg" class="card-img-top" alt="Evento 5">
+              <div class="card-body">
+                <h2 class="h5">Mini Liga</h2>
+                <h3 class="h6 text-muted">Inicio 02/12</h3>
+                <p>4 fechas garantizadas</p>
+                <button class="btn btn-outline-primary w-100">Inscribirme</button>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="card h-100 shadow-sm">
+              <img src="assets\algo.jpeg" class="card-img-top" alt="Evento 6">
+              <div class="card-body">
+                <h2 class="h5">Charla Técnica</h2>
+                <h3 class="h6 text-muted">Jueves 05/12</h3>
+                <p>Entrenamiento táctico</p>
+                <button class="btn btn-outline-primary w-100">Ver detalles</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2025 Fútbol para Todos - Todos los derechos reservados</p>
+      <p class="mb-0">Desarrollado por Agustín Quintela Prieto</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+</html>
