@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUTBOL PARA TODOS</title>
+    <link rel="icon" type="image/jpg" href="assets/LOGOO_FPT_BW.png"  >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar bg-secondary-subtle navbar-expand-lg">
+        <div class="container-fluid">
+          <a href="index.html" class="navbar-brand d-flex align-items-center p-0 m-0">
+            <img src="assets/LOGO_FPT.png" alt="Logo" width="40" height="36">
+          </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav justify-content-center w-100">
+                    <li class="nav-item mx-5"><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li class="nav-item mx-5"><a class="nav-link" href="reservas.html">Reservas</a></li>
+                    <li class="nav-item mx-5"><a class="nav-link" href="asociarme.html">Asociarse</a></li>
+                    <li class="nav-item mx-5"><a class="nav-link" href="eventos.html">Eventos</a></li>
+                    <li class="nav-item mx-5"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<main>
+  <section class="position-relative">
+    <img src="assets/reservas.jpeg" alt="Reservas fondo" class="img-fluid w-100 hero-img-700">
+
+    <div class="position-absolute top-50 start-0 end-0 center-translate-y">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 d-flex flex-column justify-content-center text-start hero-content">
+            <h1 class="text-success fw-bold mb-4 huge-title">Reservas de Canchas</h1>
+            <p class="lead text-black mb-4">
+              Introduzca sus datos en el siguiente formulario para obtener al instante las mejores recomendaciones y proceder con su reserva ideal. </p>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-12 d-flex justify-content-center">
+            <div class="search-bar d-flex flex-wrap align-items-center justify-content-between">
+
+              <div class="search-item d-flex align-items-center flex-grow-1">
+                <i class="bi bi-geo-alt search-icon"></i>
+                <input type="text" placeholder="Buscar Ciudad" class="form-control ms-2">
+              </div>
+
+              <div class="search-item d-flex align-items-center flex-grow-1">
+                <i class="bi bi-dribbble search-icon"></i>
+                <select class="form-select ms-2">
+                  <option selected disabled>Elige tipo</option>
+                  <option value="Fútbol-11">Futbol-11</option>
+                  <option value="Futbol-7">Futbol-7</option>
+                  <option value="Futsal">Futsal</option>
+                  <option value="Padel">Padel-(NUEVO!)</option>
+                </select>
+              </div>
+
+              <div class="search-item d-flex align-items-center flex-grow-1">
+                <i class="bi bi-calendar-date search-icon"></i>
+                <input type="date" class="form-control ms-2">
+              </div>
+
+              <div class="search-item d-flex align-items-center flex-grow-1">
+                <i class="bi bi-clock-history search-icon"></i>
+                <input type="time" class="form-control ms-2">
+              </div>
+
+              <button class="btn btn-secondary btn-search fw-semibold ms-2">Buscar canchas </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<section class="py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center text-success fw-bold mb-4">Canchas disponibles</h2>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 rounded-4">
+          <img src="assets/cancha1.jpeg" class="card-img-top cancha-img rounded-top-4" alt="Cancha El Boulevard">
+          <div class="card-body">
+            <h5 class="fw-bold">Cancha "El Boulevard" 5v5</h5>
+            <p class="text-muted">Palermo, Buenos Aires</p>
+            <p>Cancha sintética premium, iluminación LED y duchas.</p>
+            <p class="text-success fw-semibold">Disponible 18:00 hs</p>
+            <a class="btn btn-outline-success w-100 rounded-pill">Reservar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 rounded-4">
+          <img src="assets/cancha2.jpeg" class="card-img-top cancha-img" alt="Cancha La 12">
+          <div class="card-body">
+            <h5 class="fw-bold">Complejo "La 12" 7v7</h5>
+            <p class="text-muted">Caballito, Buenos Aires</p>
+            <p>Superficie sintética nueva, vestuarios y estacionamiento.</p>
+            <p class="text-success fw-semibold">Disponible 20:00 hs</p>
+            <a class="btn btn-outline-success w-100 rounded-pill">Reservar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 rounded-4">
+          <img src="assets/cancha3.jpeg" class="card-img-top cancha-img" alt="Cancha Parque Norte">
+          <div class="card-body">
+            <h5 class="fw-bold">Cancha "Parque Norte" 11v11</h5>
+            <p class="text-muted">Nuñez, Buenos Aires</p>
+            <p>Césped natural profesional, ideal para torneos.</p>
+            <p class="text-success fw-semibold">Disponible sábado 19:30 hs</p>
+            <a class="btn btn-outline-success w-100 rounded-pill">Reservar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 rounded-4">
+          <img src="assets/cancha4.jpg" class="card-img-top cancha-img" alt="Cancha Arena Verde">
+          <div class="card-body">
+            <h5 class="fw-bold">"Arena Verde" Fútbol 5</h5>
+            <p class="text-muted">Almagro</p>
+            <p>Cancha indoor, sintético de alta calidad.</p>
+            <p class="text-success fw-semibold">Disponible 22:00 hs</p>
+            <a class="btn btn-outline-success w-100 rounded-pill">Reservar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 rounded-4">
+          <img src="assets/cancha5.jpg" class="card-img-top cancha-img" alt="Cancha Polideportivo Mitre">
+          <div class="card-body">
+            <h5 class="fw-bold">Polideportivo "Mitre" 8v8</h5>
+            <p class="text-muted">Recoleta</p>
+            <p>Campo sintético nuevo, bar y restaurante en el predio.</p>
+            <p class="text-success fw-semibold">Disponible mañana 18:00 hs</p>
+            <a class="btn btn-outline-success w-100 rounded-pill">Reservar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 rounded-4">
+          <img src="assets/cancha6.jpg" class="card-img-top cancha-img" alt="Cancha Fútbol One 6v6">
+          <div class="card-body">
+            <h5 class="fw-bold">Fútbol One 6v6</h5>
+            <p class="text-muted">Villa Crespo</p>
+            <p>Sintético europeo, excelente drenaje y luces LED.</p>
+            <p class="text-success fw-semibold">Disponible 21:15 hs</p>
+            <a class="btn btn-outline-success w-100 rounded-pill">Reservar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 rounded-4">
+          <img src="assets/cancha7.jpeg" class="card-img-top cancha-img" alt="Cancha San Jorge">
+          <div class="card-body">
+            <h5 class="fw-bold">Club "San Jorge"-11</h5>
+            <p class="text-muted">Flores</p>
+            <p>Césped natural, vestuarios renovados y cantina.</p>
+            <p class="text-success fw-semibold">Disponible domingo 17:00 hs</p>
+            <a class="btn btn-outline-success w-100 rounded-pill">Reservar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 rounded-4">
+          <img src="assets/cancha8.jpeg" class="card-img-top cancha-img" alt="Cancha SportCenter">
+          <div class="card-body">
+            <h5 class="fw-bold">"SportCenter" Fútbol 7</h5>
+            <p class="text-muted">Belgrano</p>
+            <p>Predio techado, césped sintético europeo.</p>
+            <p class="text-success fw-semibold">Disponible hoy 23:00 hs</p>
+            <a class="btn btn-outline-success w-100 rounded-pill">Reservar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 rounded-4">
+          <img src="assets/cancha9.jpeg" class="card-img-top cancha-img" alt="Cancha Los Halcones">
+          <div class="card-body">
+            <h5 class="fw-bold">Cancha "Los Halcones"-5</h5>
+            <p class="text-muted">Barracas</p>
+            <p>Excelente iluminación, predio seguro y baños completos.</p>
+            <p class="text-success fw-semibold">Disponible 19:45 hs</p>
+            <a class="btn btn-outline-success w-100 rounded-pill">Reservar</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="footer-gris">
+      <div class="container-fluid p-3">
+        <div class="row align-items-start justify-content-between">
+
+          <div class="col-auto">
+            <img src="assets/LOGO_FPT_BW.png" alt="Logo de Futbol para todos" width="250" height="240">
+          </div>
+
+          <div class="col-auto">
+              <div class="btn-group-vertical" role="group" aria-label="Botones del footer">
+                <a href="index.html" class="btn btn-outline-secondary mb-2 rounded" role="button">Inicio</a>
+                <a href="reservas.html" class="btn btn-outline-secondary mb-2 rounded" role="button">Reservas</a>
+                <a href="asociarme.html" class="btn btn-outline-secondary mb-2 rounded" role="button">Asociarse</a>
+                <a href="eventos.html" class="btn btn-outline-secondary mb-2 rounded" role="button">Eventos</a>
+                <a href="contacto.html" class="btn btn-outline-secondary mb-2 rounded" role="button">Contacto</a>
+              </div>
+          </div>
+
+          <div class="col-auto">
+            <div class="d-flex gap-3">
+              <div class="d-flex flex-column">
+                <a href="https://www.facebook.com" class="social-icon">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com" class="social-icon">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com" class="social-icon">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+              <div class="d-flex flex-column">
+                <a href="https://www.youtube.com" class="social-icon">
+                  <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.tiktok.com" class="social-icon">
+                  <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://www.whatsapp.com" class="social-icon">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <p class="lead" style="font-size: 14px; text-align: center;">
+              FUTBOL PARA TODOS ofrece un servicio de reservas de canchas y organización de torneos. Hacemos todo lo posible para que la información (disponibilidad, precios, horarios y reglas) esté actualizada y sea precisa, pero no garantizamos su total exactitud. Al usar este sitio aceptás nuestras condiciones de uso, políticas de privacidad y cookies. FUTBOL PARA TODOS no se hace responsable por cancelaciones, lesiones o daños ocurridos durante el uso de las instalaciones; la participación en torneos y reservas es bajo tu propia responsabilidad.
+            </p>
+            <p class="text-muted small bott" style="font-size: 12px; text-align: center;">
+              © 2025 Futbol Para Todos. Todos los derechos reservados.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
